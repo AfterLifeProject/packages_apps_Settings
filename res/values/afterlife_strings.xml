@@ -390,4 +390,8 @@
     <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
     <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>
