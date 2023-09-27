@@ -62,6 +62,12 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
+
+    <com.afterlife.support.preference.SystemSettingSwitchPreference
+        android:key="hide_ime_space_enable"
+        android:title="@string/navigation_bar_ime_space_title"
+        android:summary="@string/navigation_bar_ime_space_summary"
+        android:defaultValue="false" />
         
     <SwitchPreference
             android:key="immersive_navigation"
