@@ -23,12 +23,6 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
-    <com.afterlife.support.preference.SecureSettingSwitchPreference
-        android:key="back_gesture_arrow"
-        android:title="@string/back_gesture_arrow_title"
-        android:summary="@string/back_gesture_arrow_summary"
-        android:defaultValue="true" />
-
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
@@ -43,21 +37,37 @@
 
     </PreferenceCategory>
 
-    <com.android.settings.widget.LabeledSeekBarPreference
-        android:key="gesture_navbar_length_preference"
-        android:title="@string/gesture_navbar_length_title"
-        android:max="2"
-        android:selectable="true"
-        settings:textStart="@string/short_label"
-        settings:textEnd="@string/long_label" />
+    <PreferenceCategory
+        android:title="@string/navbar_category">
 
-    <com.android.settings.widget.LabeledSeekBarPreference
-        android:key="gesture_navbar_radius_preference"
-        android:title="@string/gesture_navbar_radius_title"
-        android:max="5"
-        android:selectable="true"
-        settings:textStart="@string/thin_label"
-        settings:textEnd="@string/thick_label" />
+        <com.afterlife.support.preference.SystemSettingSwitchPreference
+            android:key="hide_ime_space_enable"
+            android:title="@string/navigation_bar_ime_space_title"
+            android:summary="@string/navigation_bar_ime_space_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_navbar_length_preference"
+            android:title="@string/gesture_navbar_length_title"
+            android:max="2"
+            android:selectable="true"
+            settings:textStart="@string/short_label"
+            settings:textEnd="@string/long_label" />
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_navbar_radius_preference"
+            android:title="@string/gesture_navbar_radius_title"
+            android:max="5"
+            android:selectable="true"
+            settings:textStart="@string/thin_label"
+            settings:textEnd="@string/thick_label" />
+    </PreferenceCategory>
+
+    <com.afterlife.support.preference.SecureSettingSwitchPreference
+        android:key="back_gesture_arrow"
+        android:title="@string/back_gesture_arrow_title"
+        android:summary="@string/back_gesture_arrow_summary"
+        android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="back_sensitivity_category"
@@ -84,12 +94,6 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
-
-    <com.afterlife.support.preference.SystemSettingSwitchPreference
-        android:key="hide_ime_space_enable"
-        android:title="@string/navigation_bar_ime_space_title"
-        android:summary="@string/navigation_bar_ime_space_summary"
-        android:defaultValue="false" />
         
     <SwitchPreference
             android:key="immersive_navigation"
