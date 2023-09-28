@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2020-22 PixelOS
      Copyright (C) 2023 Afterlife prjkt
-sssssssssssssssss
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -356,4 +356,9 @@ sssssssssssssssss
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
+
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
 </resources>
