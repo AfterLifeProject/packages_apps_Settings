@@ -18,16 +18,16 @@
     <string name="device_info_protected_single_press">Tap to show info</string>
 
     <!-- AfterLife Maintainer -->
-    <string name="afterlife_maintainer">Keep Alive By</string>
-    <string name="its_official">This devices official supported!</string>
-    <string name="its_unofficial">This devices community supported!</string>
+    <string name="afterlife_maintainer">Kept Alive By:</string>
+    <string name="its_official">This Device Is Officially Supported!</string>
+    <string name="its_unofficial">This Device Is Community Supported!</string>
     <string name="maintainer_git_username">null</string>
     <string name="maintainer_tele_username">null</string>
     <string name="maintainer_ig_username">null</string>
     <string name="maintainer_fb_username">null</string>
 
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">SELinux Status</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
